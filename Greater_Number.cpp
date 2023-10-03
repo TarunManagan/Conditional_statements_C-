@@ -1,21 +1,21 @@
 #include<iostream>
 using namespace std;
-
 int main(){
-    int a,b;
-    cout<<"Enter two numbers: ";
-    cin>> a >> b;
-    if(a>b){ //Checks whether a is greater than b or not, and if true it prints the below statement or else, prints the statement in the else part. --> GREATER THAN OPERATOR IS USED
-        cout<<"a is greater than b";
-    }else{
-        cout<<"b is greater than a ";
+    int a,b,c;
+    cout<<"Enter the 3 (distinct) numbers you want to compare: ";
+    cin>>a>>b>>c;
+    if(a>b && a>c){ //Compares whether the value of a is greater than b and c
+        cout<<a<<" is the greatest";
+    }
+    else if(b>c && b>a){ //Compares whether the value of b is greater than b and c
+        cout<<b<<" b is the greatest"<<b;
+    }
+    else{ //If both the conditions fail then this statement is executed.
+        cout<<c<<" is the greatest"<<c;
     }
     return 0;
 }
-/*  OUTPUT
-Enter two numbers: 2 3
-b is greater than a 
-
-Enter two numbers: 7 5
-a is greater than b
+/* OUTPUT
+Enter the 3 numbers you want to compare: 8 7 6 
+8 is the greatest
 */
