@@ -1,3 +1,6 @@
+# Name: S.Tarun Managan
+# PRN: 22070123118
+
 # Conditional_statements_C++
 
 The conditional statements (also known as decision control structures) such as if, if else, switch, etc. are used for decision-making purposes in C/C++ programs.
